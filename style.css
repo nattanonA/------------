@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f0f0;
+}
+
+/* ตัวอย่างการปรับแต่งส่วนหัวเว็บ */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ตัวอย่างการปรับแต่งรูปภาพ */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ตัวอย่างการปรับแต่งข้อความ */
+.content {
+    padding: 20px;
+}
+
+/* ตัวอย่างการปรับแต่งตารางข้อมูล */
+.table {
+    width: 100%;
+}
+
+@keyframes slideIn {
+from {
+    transform: translateX(-100%);
+}
+to {
+    transform: translateX(0);
+}
+}
+.slide-in {
+    animation: slideIn 2s ease;
+}
